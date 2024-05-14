@@ -1,0 +1,32 @@
+$ history 30
+  674  grep "France,2019,PHP" < wilders.csv > php_france_2019.csv
+  675  cat php_france_2019.csv
+  676  grep "France,2019,PHP" < wilders.csv | php_france_2019.csv
+  677  grep "France,2019,PHP" < wilders.csv | >php_france_2019.csv
+  678  cat php_france_2019.csv
+  679  head php_france_2019.csv
+  680  grep "France,2019,PHP" < wilders.csv | php_france_2019.csv
+  681  grep "France,2019,PHP" < wilders.csv | wc -l
+  682  grep "France,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
+  683  cat php_france_2019.csv
+  684  get "Toulouse,JavaScript" < wilders.csv > toulouse.csv
+  685  grep "Toulouse,JavaScript" < wilders.csv > toulouse.csv
+  686  cat toulouse.csv
+  687  head toulouse.csv
+  688  grep "Toulouse,France" < wilders.csv > toulouse.csv
+  689  head toulouse.csv
+  690  rm toulouse.csv
+  691  clear
+  692  ls -l
+  693  grep toulouse wilders.csv > toulouse.csv
+  694  grep Biarritz wilders.csv > biarritz.csv
+  695  grep JavaScript wilders.csv > javascript.csv
+  696  grep JavaScript toulouse.csv > toulouse_java.csv
+  697  grep JavaScript biarritz.csv > biarritz_java.csv
+  698  cat toulouse_java.csv biarritz_java.csv > javascript_biarritz_toulouse.csv
+  699  cat javascript_biarritz_toulouse.csv
+  700  ls -l
+  701  history tail 20
+  702  history 20
+  703  history 30
+
